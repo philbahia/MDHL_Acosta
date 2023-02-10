@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section>img {
+
+    width: 20%;
+    display: block;
+    float: right;
+
+
+}
+
+section>p {
+    margin-bottom: 0%;
+}
+
+header h1 {
+
+    margin-top: 1rem;
+    font-size: 4rem;
+    
+
+
+}
+
+.subti {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(76, 76, 182);
+    font: 2em sans-serif;
+
+
+}
+
+.barra a {
+    display: block;
+    padding: 2rem;
+}
+
+.cuerpo>div {
+    margin-left: 10rem;
+    padding: 1rem;
+
+}
+
+.barra {
+    float: left;
+    width: 20%;
+}
+
+.cuerpo {
+    float: right;
+    width: 80%;
+}
+
+.cuerpo>img {
+    width: 15%;
+    float: left;
+}
+
+header {
+    background-image: url(../img/design1_image1.jpg);
+    background-size: cover;
+    height: 300px;
+
+}
