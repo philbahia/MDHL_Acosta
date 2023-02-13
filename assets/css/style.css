@@ -2,15 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:cursive ;
 }
 
-section>img {
-
-    width: 20%;
+/*section>img {
+*/
+header img {
+    width: 10%;
     display: block;
-    float: right;
-
+    position: absolute;
+    top: 32vh;
+    right: 5vw;
+    
 
 }
 
@@ -20,51 +23,89 @@ section>p {
 
 header h1 {
 
-    margin-top: 1rem;
-    font-size: 4rem;
-    
+
+    font-size: 3em;
+    color:black ;
 
 
 }
 
 .subti {
-    width: 100%;
+
     text-align: center;
-    background-color: rgb(76, 76, 182);
-    font: 2em sans-serif;
+    background-color: black;
+    color: white;
+    font: 2em cursive;
+    margin: 0 5% 0 5%;
 
 
+}
+
+.activo {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.otro {
+    color: blue;
 }
 
 .barra a {
     display: block;
     padding: 2rem;
+    font-weight: bold;
+   
+    
 }
 
 .cuerpo>div {
-    margin-left: 10rem;
-    padding: 1rem;
+    margin-left: 20rem;
+    /*position: absolute;
+    left: 20rem;
+*/
+    padding: 0.5rem;
+
+    
+   
 
 }
 
 .barra {
     float: left;
     width: 20%;
+    margin: 5% 0 0 5%;
+
 }
 
 .cuerpo {
-    float: right;
-    width: 80%;
+    float: left;
+    width: 70%;
+    margin: 5% 5% 0 0;
+    padding: 1rem;
+    position: relative;
+
 }
+
+
 
 .cuerpo>img {
-    width: 15%;
-    float: left;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0; 
 }
+
 
 header {
+    width: 90 vw;
+    height: 25vh;
+    margin: 10px 5% 0 5%;
     background-image: url(../img/design1_image1.jpg);
     background-size: cover;
-    height: 300px;
+    background-position: 0 40%;
+    min-height: 40vh;
+    padding: .5rem;
 
-}
+} 
+
