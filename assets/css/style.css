@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: cursive;
+
+}
+
+html {
+    background: rgb(24, 77, 177);
+    color: aliceblue;
+
 }
 
 /*section>img {
@@ -26,6 +33,7 @@ header h1 {
 
     font-size: 3em;
     color: black;
+    text-shadow: 3px 3px 0px rgba(200, 236, 19, 0.78);
 
 
 }
@@ -41,64 +49,133 @@ header h1 {
 
 }
 
+li {
+    margin: 1rem;
+
+}
+
+.lista dt {
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.lista dd {
+
+    margin: 1rem;
+    padding: 0.5rem;
+    text-indent: 20px;
+}
+
+.lista dl {
+    margin-bottom: 3rem;
+}
+
+.cuerpo>div {
+    margin: 2rem;
+    padding: 0.5rem;
+}
+
+.cuerpo>h3,p {
+    text-align: center;
+}
+
+.pie p {
+    text-align: left;
+    margin: 1rem;
+}
+.barra>nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.barra a:hover {
+    background-color: rgb(40, 111, 173);
+}
+
+.barra a {
+    padding: 1rem;
+    margin: .2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(1, 2, 37);
+    box-shadow: 8px 5px 5px rgb(6, 4, 36);
+    border-radius: 10px;
+
+}
+
+.barra>img {
+    margin-top: 2rem;
+}
+
+#sublista {
+    list-style: lower-alpha;
+}
+
 .activo {
+    background-color: rgb(26, 106, 175);
     color: black;
     text-decoration: none;
 
 }
 
 .otro {
-    color: blue;
+    background-color: rgb(14, 37, 141);
+    color: rgb(173, 192, 138);
 }
 
-.barra a {
-    display: block;
-    padding: 2rem;
-    font-weight: bold;
-
-
+.barra>img{
+    margin: .5rem;
 }
-
-.cuerpo>div {
-    margin-left: 20rem;
-    /*position: absolute;
-    left: 20rem;
-*/
-    padding: 0.5rem;
-
-
-
-
-}
-
 .barra {
-    float: left;
+
     width: 20%;
     margin: 5% 0 0 5%;
-
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .cuerpo {
-    float: left;
+
+    display: flex;
+    flex-direction: column;
     width: 70%;
     margin: 5% 5% 0 0;
     padding: 1rem;
     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
 
 }
 
+article {
+    border: 1px solid red;
+    margin: 1rem;
+    padding: .4rem;
 
+}
+
+article>p {
+    text-indent: 30px;
+    margin-top: 1rem;
+}
+
+article>ol {
+    border: 1px solid yellow;
+}
 
 .cuerpo>img {
-    width: 30%;
+    width: 10%;
     position: absolute;
-    top: 0;
+    top: 10;
     left: 0;
+    border: 1px solid rgb(207, 15, 105);
 }
 
 
 header {
-    width: 90 vw;
+    /*width: 90vw;*/
     height: 25vh;
     margin: 10px 5% 0 5%;
     background-image: url(../img/design1_image1.jpg);
@@ -106,5 +183,79 @@ header {
     background-position: 0 40%;
     min-height: 40vh;
     padding: .5rem;
+    border-radius: 15px 15px 0 0;
+}
 
+/*Contenedor cuerpo principal*/
+.contenedor {
+    display: flex;
+   
+}
+
+.tschedule>h3 {
+    text-align: center;
+}
+th, td{
+    padding: .5rem;
+}
+.tschedule{
+    /*align-self: center;*/
+   
+    margin: 2rem;
+    width: 63%;
+
+}
+tbody tr:nth-child(even){
+    background-color: #6379f5;
+}
+thead tr, tfoot td{
+    background-color: blue;
+}
+tbody tr:nth-child(odd),  tfoot tr{
+    background-color: rgb(54, 54, 179);
+}
+
+.tschedule>table, td{
+    border: 2px solid rgb(36, 38, 114);
+}
+.tschedule>table{
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 8px 5px 5px rgb(6, 4, 36);
+    border-radius: 10px;
+    
+}
+footer {
+    display: flex;
+    justify-content: center;
+    border: 1px solid pink;
+    background: rgb(6, 48, 126);
+    ;
+}
+
+footer>p {
+    margin: .5rem;
+
+}
+
+.pie{
+    margin: 2rem;
+    
+}
+.contacto>p{
+    width: 70%;
+}
+
+.retorno{
+    align-self: center ;
+    border: 1px solid rgb(3, 3, 71);
+    background-color: rgb(131, 133, 224);
+    border-radius: 1rem;
+    width: 60%;
+    
+}
+.contacto {
+    display: flex;
+    justify-content: flex-start;
 }
