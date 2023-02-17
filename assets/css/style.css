@@ -36,10 +36,6 @@ header h1 {
     margin: 0 5% 0 5%;
 }
 
-li {
-    margin: 1rem;
-}
-
 .lista dt {
     font-weight: bold;
     margin-bottom: .5rem;
@@ -61,7 +57,7 @@ li {
 }
 
 .cuerpo>h3,
-p {
+p, .fecha {
     text-align: center;
 }
 
@@ -129,11 +125,6 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-article {
-    border: 1px solid red;
-    margin: 1rem;
-    padding: .4rem;
-}
 
 article>p {
     text-indent: 30px;
@@ -236,7 +227,8 @@ footer>p {
 
 
 fieldset,
-legend {
+legend,
+li {
     margin: 1rem;
 }
 
@@ -271,7 +263,6 @@ fieldset {
 }
 
 fieldset label {
-
     margin: 0.5rem;
     padding: .5rem;
 }
@@ -319,7 +310,6 @@ fieldset p {
 .btnsend>input {
     background-color: rgb(28, 28, 167);
     color: rgb(194, 182, 182);
-
     border: 2px solid rgb(20, 5, 61);
     border-radius: 1rem;
     width: 10rem;
@@ -334,7 +324,7 @@ fieldset p {
     background-color: rgb(42, 84, 223);
     box-shadow: 8px 5px 5px rgb(6, 4, 36);
     text-align: left;
-
+    margin: 1rem;
     padding: 1rem;
 }
 
@@ -370,6 +360,3 @@ iframe {
     margin: 1rem;
 }
 
-.fecha {
-    text-align: center;
-}
